@@ -12,7 +12,7 @@ function install_dotnet() {
       local DOTNET_SDK_URL=""
       #if [ "$CORE_VER" == "2.1.4" ]; then
       if [ "$CORE_VER" == "3.1.4" ]; then
-      	    DOTNET_SDK_URL="/download.visualstudio.microsoft.com/download/pr/7d4c708b-38db-48b2-8532-9fc8a3ab0e42/23229fd17482119822bd9261b3570d87/dotnet-sdk-3.1.202-linux-x64.tar.gz"  
+      	    DOTNET_SDK_URL="https://download.visualstudio.microsoft.com/download/pr/7d4c708b-38db-48b2-8532-9fc8a3ab0e42/23229fd17482119822bd9261b3570d87/dotnet-sdk-3.1.202-linux-x64.tar.gz"  
             #DOTNET_SDK_URL="https://download.visualstudio.microsoft.com/download/pr/efa6dde9-a5ee-4322-b13c-a2a02d3980f0/dad445eba341c1d806bae5c8afb47015/dotnet-sdk-3.0.100-preview-010184-linux-x64.tar.gz"
       fi
       echo "Download url: $DOTNET_SDK_URL"
